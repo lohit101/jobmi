@@ -1,0 +1,62 @@
+[
+  {
+    "image": "img-12.png",
+    "name": "PATISSIER",
+    "index": 1
+  },
+  {
+    "image": "img-6.png",
+    "name": "COIFFEUR",
+    "index": 2
+  },
+  {
+    "image": "img-9.png",
+    "name": "BARBER",
+    "index": 3
+  },
+  {
+    "image": "img-2.png",
+    "name": "JARDINIER",
+    "index": 4
+  },
+  {
+    "image": "img-8.png",
+    "name": "STYLISTE",
+    "index": 5
+  },
+  {
+    "image": "img-10.png",
+    "name": "CUISINIER",
+    "index": 6
+  },
+  {
+    "image": "img-4.png",
+    "name": "HORLOGER",
+    "index": 7
+  },
+  {
+    "image": "img-3.png",
+    "name": "DESIGNER",
+    "index": 8
+  },
+  {
+    "image": "img-7.png",
+    "name": "BOULANGER",
+    "index": 9
+  },
+  {
+    "image": "img-1.png",
+    "name": "Architecte",
+    "index": 10
+  },
+  {
+    "image": "img-5.png",
+    "name": "Médecin",
+    "index": 11
+  },
+  {
+    "image": "img-11.png",
+    "name": "Ingénieur",
+    "index": 12
+  }
+]

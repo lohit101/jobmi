@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Hero part */
+.hero-part {
+  position: relative;
+}
+.hero-part .explore-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 70%;
+}
+.hero-part .explore-btn button {
+  background-color: #6500ff;
+  position: relative;
+}
+
+.hero-part .explore-btn button::before,
+.card-part .purple-btn::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #6500ff;
+}
+
+/* Header part */
+.header-part {
+  background-image: url("./images/banner-img-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  .header-part {
+    height: 55vh; /* Pour les écrans moyens et grands, la hauteur est de 55vh */
+  }
+}
+
+.header-part .title-part {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-part .title-part .header-bg-img {
+  background-image: url("./images/bg-surligne-purple.png");
+  position: absolute;
+  top: 28%;
+  left: 28%;
+  background-position: center;
+  background-size: cover;
+  width: 19.4rem;
+  height: 2rem;
+}
+
+.header-part .title-part .header-underline {
+  background-image: url("./images/bg-underline-image.png");
+  position: absolute;
+  top: 60%;
+  left: 79%;
+  background-repeat: no-repeat;
+  width: 6rem;
+  height: 4rem;
+}
+
+/* Accordion part */
+.accordion-part .bg-accordion,
+.accordion-part .accordion-btn {
+  background-color: #04192f;
+}
+
+/* Card part */
+.card-part .card-content,
+.testimonial-part .testimonial-box,
+.patissier-part .patissier-left-box,
+.navbar-part {
+  background-color: #f3f3f3;
+}
+
+.card-part .btn-groups {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-part .purple-btn {
+  background-color: #6500ff;
+}
+
+/* BgImage */
+.bg-image {
+  background-image: url("./images/bg-img.png");
+  width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.confiance-part .confiance-left-box {
+  background-color: #f3f3f3;
+}
+
+/* Fait part */
+.fait-part .brands-menus li {
+  background-color: #f7f7f7;
+}
+
+/* Newsletter */
+.news-letter-part,
+.patissier-part .patissier-right-box {
+  background-color: #04192f;
+}
+
+/* Testimonial part */
+.testimonial-part .rating-part li .active-icon {
+  color: #9159ff;
+  font-size: 20px;
+}
+
+.testimonial-part .rating-part li .star-icon {
+  color: #6500ff;
+  opacity: 21%;
+  font-size: 20px;
+}
+
+.navbar-item {
+  padding: 0px !important;
+}
+
+.parthiv {
+  background-color: #f8f8f8 !important;
+  font-weight: 500;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+.css-yw020d-MuiAccordionSummary-expandIconWrapper svg {
+  transform: rotate(0deg) !important;
+  font-size: 1.5rem;
+  background-color: #04192f;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* Media Query */
+@media (max-width: 640px) {
+  .navbar-part {
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1111;
+    padding: 1.5rem 2rem;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 111;
+    transition: 0.3s ease-in;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .fixed-header .logo-body img {
+    width: 100px;
+  }
+  .social-links {
+    display: none;
+  }
+  .hero-part .explore-btn button {
+    position: absolute;
+    top: -266px;
+    left: 0;
+  }
+  .header-part .title-part {
+    left: 50%;
+    width: 88%;
+  }
+  .header-part .title-part .header-bg-img {
+    top: 39%;
+    left: 9%;
+  }
+  .header-part .title-part .header-underline {
+    background-size: contain;
+    width: 5rem;
+    height: 3rem;
+    top: 48%;
+    left: 83%;
+  }
+  .header-part {
+    background-size: contain;
+    height: 26vh;
+  }
+  .bg-image {
+    height: 15vh;
+  }
+  .confiance-left-box h1 {
+    position: unset;
+  }
+  .news-letter-part .news-letter-img img {
+    transform: rotate(135deg);
+    margin-left: 10rem;
+  }
+  
+  .menus ul {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .hero-part .explore-btn button {
+    position: absolute;
+    top: -140px;
+    left: -18px;
+  }
+  .header-part .title-part .header-bg-img {
+    top: 35%;
+    left: 9%;
+    width: 16.4rem;
+  }
+  .header-part .title-part .header-underline {
+    left: 81%;
+  }
+  .bg-accordion img:nth-child(2) {
+    right: 0.7rem;
+  }
+}
+
+
+
+
+
